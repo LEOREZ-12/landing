@@ -1,0 +1,43 @@
+.banner{
+  background-image: url('france.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 45px 0;
+  color: white; 
+}
+.banner h1{
+  font-family:"Russo One" sans-serif
+}
+
+.banner p{
+  font-size: 18px;
+}
+
+strong {
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
